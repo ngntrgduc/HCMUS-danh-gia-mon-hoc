@@ -6,15 +6,16 @@ Script giúp tự động đánh giá môn học trên Portal
 - Truy cập [Portal](http://portal.hcmus.edu.vn/
 ), vô phần `Khảo sát/Đánh giá`
 - Mở `console` trên trình duyệt bằng cách nhấn tổ hợp phím `Ctrl + Shift + i` hoặc nhấn phím `F12`, vào tab **`console`**
-- Paste script ở dưới vào console và nhấn `Enter`
-**Lưu ý**: script này sẽ tích toàn bộ lựa chọn và lưu lại rồi trở về màn hình chứa danh sách các môn học, không thể hoàn tác nên hãy cẩn thận khi sử dụng script này :v 
+- Paste script ở dưới vào `console` và nhấn `Enter`
+
+**Lưu ý**: script này sẽ tích toàn bộ lựa chọn, lưu lại và trở về màn hình chứa danh sách các môn học, không thể chỉnh sửa lại nên hãy cẩn thận khi sử dụng script này :v 
 ```js
 $("[id$='72057594046734038']").click(); // Chọn mức độ 5 cho tất cả lựa chọn có ở môn học
 for (let i = 0; i < 8; i++) {$('#bnyu4wLxFxFHxCvLtLsHH').trigger('click');} // Chuyển hướng tới trang cuối cùng bằng cách nhấn "Tiếp"
 $('#btnSave').trigger('click'); // Nhấn vô nút "Hoàn tất" để lưu lại đánh giá
 $('#btnBackToList').trigger('click'); // Nhấn vô nút "Danh sách" để trở về trang chứa danh sách môn học
 ```
-> Note: Nếu muốn đánh giá full `4, 3, 2, 1 sao` thì lần lượt thay số `8` cuối cùng ở dòng đầu tiên bằng số `7, 6, 5, 4`
+- Nếu muốn đánh giá full `4, 3, 2, 1 sao` thì lần lượt thay số `8` cuối cùng ở dòng đầu tiên bằng số `7, 6, 5, 4`
 ```js    
 $("[id$='72057594046734037']").click(); // 4 sao
 
