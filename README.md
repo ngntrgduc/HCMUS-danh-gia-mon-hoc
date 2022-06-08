@@ -8,8 +8,8 @@ Script giúp tự động đánh giá môn học trên Portal
 - Paste script ở dưới vào `console` và nhấn `Enter`
 
 ### Lưu ý:
-   - Script này sẽ tích `toàn bộ lựa chọn giống nhau`, lưu lại và trở về màn hình chứa danh sách các môn học, không thể chỉnh sửa lại nên hãy chắc chắn rằng bạn muốn đánh giá giống nhau cho tất cả lựa chọn của môn học
-   - Script này chỉ sử dụng được với học phần `lý thuyết`, nếu muốn sử dụng ở học phần `thực hành` thì chỉ sử dụng dòng đầu tiên để tích toàn bộ lựa chọn 
+   - Script này sẽ đánh giá `toàn bộ lựa chọn giống nhau`, lưu lại và trở về màn hình chứa danh sách các môn học, không thể chỉnh sửa lại nên hãy chắc chắn rằng bạn muốn đánh giá giống nhau cho tất cả lựa chọn của môn học
+   - Script này chỉ sử dụng được với học phần `lý thuyết`, nếu muốn sử dụng ở học phần `thực hành` thì chỉ sử dụng dòng đầu tiên để đánh giá toàn bộ lựa chọn 
 ---
 ```js
 $("[id$='72057594046734038']").click(); // Chọn mức độ 5 (cao nhất) cho tất cả lựa chọn có ở môn học
@@ -34,7 +34,7 @@ $("[id$='72057594046734034']").click(); // mức độ 1
 $('#btnSave').trigger('click');
 $('#btnBackToList').trigger('click'); 
 ```
-như vậy thì script sẽ chỉ chuyển tới trang cuối mà không lưu lại và trở về trang danh sách môn học.
+như vậy thì script sẽ chỉ chuyển tới trang cuối mà không lưu lại và trở về trang danh sách môn học
 
 - Nếu bạn muốn ở lại trang đánh giá đầu tiên mà không phải chuyển tới trang cuối thì xoá đoạn code này
 ```js 
