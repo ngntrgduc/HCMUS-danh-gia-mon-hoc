@@ -8,8 +8,8 @@ Script giúp tự động đánh giá môn học trên Portal, giúp giảm gán
 ## Hướng dẫn
 - Truy cập [Portal](http://portal.hcmus.edu.vn/
 ), vô phần `Khảo sát/Đánh giá`, chọn môn học bạn muốn đánh giá
-- Mở console trên trình duyệt bằng cách nhấn tổ hợp phím `Ctrl + Shift + i` hoặc nhấn phím `F12`, vào tab **`console`**
-- Paste script ở dưới vào `console` và nhấn `Enter`
+- Mở console trên trình duyệt bằng cách nhấn tổ hợp phím `Ctrl + Shift + i` hoặc nhấn phím `F12`, vào tab `console`
+- Copy script ở dưới, paste vào `console` và nhấn `Enter`
 ```js
 $("[id$='72057594046734038']").click(); // Chọn mức độ 5 (cao nhất) cho tất cả lựa chọn có ở môn học
 $('#btnSave').trigger('click'); // Nhấn vô nút "Hoàn tất" để lưu lại đánh giá
@@ -28,8 +28,7 @@ $("[id$='72057594046734035']").click(); // mức độ 2
 $("[id$='72057594046734034']").click(); // mức độ 1
 ```
 
-- Nếu muốn đánh giá phần lớn lựa chọn ở một mức độ cụ thể và muốn điều chỉnh 1 số lựa chọn khác thì bạn chỉ cần sử dụng dòng đầu tiên ở đoạn script trên 
+- Nếu muốn đánh giá phần lớn lựa chọn ở một mức độ cụ thể và muốn **điều chỉnh 1 số lựa chọn khác** thì bạn chỉ cần sử dụng dòng đầu tiên ở đoạn script trên. Như vậy thì script sẽ không lưu lại đánh giá và không trở về trang danh sách môn học
 ```js 
 $("[id$='72057594046734038']").click(); // Chọn mức độ 5 (cao nhất) cho tất cả lựa chọn có ở môn học
 ```
-như vậy thì script sẽ không lưu lại đánh giá và trở về trang danh sách môn học
