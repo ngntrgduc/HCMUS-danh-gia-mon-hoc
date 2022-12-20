@@ -17,7 +17,7 @@ $('#btnBackToList').trigger('click'); // Nhấn vô nút "Danh sách" để tr�
 ```
 
 ## Một số tuỳ chỉnh khác
-- Nếu muốn đánh giá ở mức độ `4, 3, 2, 1` thì lần lượt thay số `8` cuối cùng ở dòng đầu tiên bằng số `7, 6, 5, 4`
+- Nếu muốn đánh giá ở mức độ `4, 3, 2, 1` thì lần lượt thay chữ số `8` cuối cùng của dãy số ở dòng đầu tiên bằng số `7, 6, 5, 4`
 ```js    
 $("[id$='72057594046734037']").click(); // mức độ 4
 
@@ -28,7 +28,7 @@ $("[id$='72057594046734035']").click(); // mức độ 2
 $("[id$='72057594046734034']").click(); // mức độ 1
 ```
 
-- Nếu bạn muốn đánh giá phần lớn lựa chọn ở một mức độ cụ thể và muốn điều chỉnh 1 số lựa chọn khác thì bạn chỉ cần sử dụng dòng đầu tiên ở đoạn script trên 
+- Nếu muốn đánh giá phần lớn lựa chọn ở một mức độ cụ thể và muốn điều chỉnh 1 số lựa chọn khác thì bạn chỉ cần sử dụng dòng đầu tiên ở đoạn script trên 
 ```js 
 $("[id$='72057594046734038']").click(); // Chọn mức độ 5 (cao nhất) cho tất cả lựa chọn có ở môn học
 ```
