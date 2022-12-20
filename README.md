@@ -17,7 +17,7 @@ $('#btnBackToList').trigger('click'); // Nhấn vô nút "Danh sách" để tr�
 ```
 
 ## Một số tuỳ chỉnh khác
-- Nếu muốn đánh giá ở mức độ `4, 3, 2, 1` thì lần lượt thay số `8` cuối cùng của dãy số ở dòng đầu tiên bằng số `7, 6, 5, 4`
+- Nếu muốn đánh giá ở mức độ `4, 3, 2, 1` thì lần lượt thay chữ số `8` cuối cùng của dãy số ở dòng đầu tiên bằng chữ số `7, 6, 5, 4`
 ```js    
 $("[id$='72057594046734037']").click(); // mức độ 4
 
