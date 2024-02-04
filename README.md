@@ -3,7 +3,8 @@ Script giúp tự động đánh giá môn học trên Portal, giúp giảm gán
 
 ## Lưu ý
    - Script này sẽ đánh giá `toàn bộ lựa chọn giống nhau`, lưu lại và trở về màn hình chứa danh sách các môn học, không thể chỉnh sửa lại nên hãy chắc chắn rằng bạn muốn đánh giá **giống nhau cho tất cả lựa chọn** của môn học
-   - Script này chỉ sử dụng được với học phần `lý thuyết` (do học phần thực hành có 1 số môn phải lựa chọn giảng viên để đánh giá), nếu muốn sử dụng ở học phần `thực hành` thì chỉ sử dụng dòng đầu tiên để đánh giá toàn bộ lựa chọn 
+   - Script này chỉ sử dụng được với học phần `lý thuyết` (do học phần thực hành có 1 số môn phải lựa chọn giảng viên để đánh giá), nếu muốn sử dụng ở học phần `thực hành` thì chỉ sử dụng dòng đầu tiên để đánh giá toàn bộ lựa chọn
+   - Những phần đánh giá về cơ sở vật chất, nhà trường,... cho toàn bộ môn học sẽ giống với lựa chọn của môn học đầu tiên mà bạn đánh giá, nên đừng dại đánh giá full 1 sao cho môn đầu tiên nhé
 
 ## Hướng dẫn
 - Truy cập [Portal](http://portal.hcmus.edu.vn/
